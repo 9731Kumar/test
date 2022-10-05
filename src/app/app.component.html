@@ -1,0 +1,6 @@
+<div class="container">
+  <div class="csStariing">
+    <img src="" alt="no-star" class="star-rating cNoStarr" *ngIf="!service.defaultStarred"  (click)="clickImg()">
+    <img src="" alt="star" class="star-rating cStarr" *ngIf="service.defaultStarred"  (click)="clickImg()">
+  </div>
+</div>
